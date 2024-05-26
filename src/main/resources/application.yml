@@ -1,2 +1,10 @@
 server:
   port: 8888
+
+spring:
+  rabbitmq:
+    host: 192.168.9.122
+    port: 5672
+    password: guest
+    username: guest
+    virtual-host: /
